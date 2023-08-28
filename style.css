@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Great+Vibes&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --fonte_texto: 'Bungee Hairline', 'cursive';
+    --fonte_cursiva: 'Great Vibes', sans-serif;
+    --cor1: #710606;
+    --cor2: #e48b0634;
+}
+
+button{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.318);
+}
+
+
+header{
+    background-image: linear-gradient(to right, var(--cor1) 70%, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right 45px;
+    max-height: 150px;
+}
+
+header h1{
+    font-family: var(--fonte_cursiva);
+    font-size: 3.5em;
+    color: white;
+    text-shadow: 0px 0px 8px #2424249f;
+}
+
+nav{
+    background-image: linear-gradient(to right, var(--cor1) 70%, transparent);
+    padding-bottom: 8px;
+}
+
+nav a{
+    font-family: var(--fonte_texto);
+    font-weight: bolder;
+    font-size: 0.78em;
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    padding: 8px;
+}
+
+nav a:hover{
+    background-color: #560b0b;
+    border-radius: 10px;
+    text-decoration: underline;
+    transition-duration: 0.18s;
+}
+
+main{
+    background-color: var(--cor2);
+    font-family: var(--fonte_texto);
+    max-width: 900px;
+    min-width: 320px;
+    margin: auto;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.473);
+    margin-bottom: 18px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+article.sobre{
+    padding: 20px;
+}
+
+article.sobre h2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.sobre p{
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2.1em;
+}
+
+.sobre img{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.cardapio{
+    background-color:#643e0534;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    
+}
+
+.cardapio h2{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.img_cardapio{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_cardapio img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.botoes_cardapio{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    margin-top: 14px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--fonte_texto);
+    font-weight: bolder;
+    color: white;
+    background-color: var(--cor1);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #51230d;
+}
+
+.cadastro{
+    padding: 18px;
+    text-align: center;
+}
+
+.cadastro h2 {
+    font-family: var(--fonte_cursiva);
+    font-size: 2em;
+}
+
+.cadastro label{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.cadastro input{
+    padding: 7px;
+    margin-bottom: 8px;
+    width: 300px;
+    height: 18px;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cadastro button{
+    margin-bottom: 20px;
+}
+
+aside{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social{
+    text-align: center;
+}
+
+.social h2{
+    font-family: var(--fonte_cursiva);
+    font-size: 2em;
+}
+
+.social > img {
+    height: 80px;
+}
+
+.contatos h2{
+    font-family: var(--fonte_cursiva);
+    font-size: 2em;
+}
+
+.contatos h3{
+    text-decoration: underline;
+}
+
+.contatos{
+    font-weight: bolder;
+    text-align: center;
+}
+
+footer{
+    padding: 18px;
+    background-color: #710606;
+    color: white;
+    text-align: center;
+}
