@@ -25,7 +25,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding-left: 25px;
-    padding-right 45px;
+    padding-right: 45px;
     max-height: 150px;
 }
 
@@ -44,6 +44,7 @@ header img{
 nav{
     background-image: linear-gradient(to right, var(--cor1) 70%, transparent);
     padding-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 nav a{
@@ -59,8 +60,7 @@ nav a{
 nav a:hover{
     background-color: #560b0b;
     border-radius: 10px;
-    text-decoration: underline;
-    transition-duration: 0.18s;
+    transition-duration: 0.3s;
 }
 
 main{
@@ -104,7 +104,7 @@ article.sobre h2{
     padding: 10px;
     padding-top: 5px;
     padding-bottom: 20px;
-    
+    text-align: center;
 }
 
 .cardapio h2{
@@ -147,6 +147,12 @@ button{
 button:hover{
     cursor: pointer;
     background-color: #51230d;
+    transition: 0.2s;
+}
+
+.btn-cardapio{
+    background-color: #862b02;
+    width: 200px;
 }
 
 .img-parallax{
